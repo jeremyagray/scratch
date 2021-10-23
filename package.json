@@ -15,10 +15,10 @@
   "bugs": {
     "url": "https://github.com/jeremyagray/al-btn/issues"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "description": "A React project from scratch",
   "devDependencies": {
+    "webpack": "^5.59.1"
   },
   "directories": {},
   "engines": {
