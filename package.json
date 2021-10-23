@@ -24,6 +24,7 @@
     "@babel/core": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
     "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.3.1"
   },
   "directories": {},
@@ -86,7 +87,7 @@
     "cover": "react-scripts test --coverage --watchAll",
     "lint": "eslint 'src/*.js'",
     "lint-fix": "eslint 'src/*.js' --fix",
-    "start": "BROWSER=none PORT=3001 react-scripts start",
+    "start": "BROWSER=none webpack serve",
     "test": "react-scripts test"
   },
   "version": "0.0.1"
