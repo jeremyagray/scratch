@@ -45,7 +45,6 @@
   "homepage": "https://github.com/jeremyagray/al-btn",
   "keywords": [
     "d3",
-    "node",
     "react"
   ],
   "license": "MIT",
@@ -69,11 +68,12 @@
       "testing"
     ],
     "scopes": [
+      "api",
       "assets",
       "css",
-      "data",
       "d3",
-      "react"
+      "react",
+      "tool"
     ],
     "footers": [
       "signed-off-by"
