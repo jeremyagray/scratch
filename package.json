@@ -15,7 +15,10 @@
   "bugs": {
     "url": "https://github.com/jeremyagray/al-btn/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "description": "A React project from scratch",
   "devDependencies": {
     "@babel/core": "^7.15.8",
