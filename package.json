@@ -1,0 +1,87 @@
+{
+  "author": "Jeremy A Gray <gray@flyquackswim.com> (http://www.flyquackswim.com/)",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/jeremyagray/al-btn/issues"
+  },
+  "dependencies": {
+  },
+  "description": "A React project from scratch",
+  "devDependencies": {
+  },
+  "directories": {},
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "homepage": "https://github.com/jeremyagray/al-btn",
+  "keywords": [
+    "d3",
+    "node",
+    "react"
+  ],
+  "license": "MIT",
+  "name": "scratch",
+  "pccc": {
+    "header_length": 50,
+    "body_length": 72,
+    "rewrap": true,
+    "spell_check": false,
+    "repair": false,
+    "types": [
+      "build",
+      "ci",
+      "depends",
+      "docs",
+      "feat",
+      "fix",
+      "perf",
+      "refactor",
+      "style",
+      "testing"
+    ],
+    "scopes": [
+      "assets",
+      "css",
+      "data",
+      "d3",
+      "react"
+    ],
+    "footers": [
+      "signed-off-by"
+    ],
+    "required_footers": [
+      "signed-off-by"
+    ]
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyagray/al-btn.git"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "cover": "react-scripts test --coverage --watchAll",
+    "lint": "eslint 'src/*.js'",
+    "lint-fix": "eslint 'src/*.js' --fix",
+    "start": "BROWSER=none PORT=3001 react-scripts start",
+    "test": "react-scripts test"
+  },
+  "version": "0.0.1"
+}
