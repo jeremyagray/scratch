@@ -16,6 +16,7 @@
     "url": "https://github.com/jeremyagray/al-btn/issues"
   },
   "dependencies": {
+    "d3": "^7.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -93,7 +94,7 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "cover": "react-scripts test --coverage --watchAll",
+    "cover": "jest --coverage --watchAll",
     "lint": "eslint 'src/*.js'",
     "lint-fix": "eslint 'src/*.js' --fix",
     "start": "BROWSER=none webpack serve",
