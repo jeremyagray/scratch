@@ -15,6 +15,9 @@
 //   Route,
 // } from "react-router-dom";
 
+// D3.
+import * as d3 from 'd3';
+
 import './App.css';
 
 // import Body from './Body.js';
