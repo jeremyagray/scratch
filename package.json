@@ -13,7 +13,7 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/jeremyagray/al-btn/issues"
+    "url": "https://github.com/jeremyagray/scratch/issues"
   },
   "dependencies": {
     "d3": "^7.1.1",
@@ -47,7 +47,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://github.com/jeremyagray/al-btn",
+  "homepage": "https://github.com/jeremyagray/scratch",
   "keywords": [
     "d3",
     "react"
@@ -90,7 +90,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeremyagray/al-btn.git"
+    "url": "git+https://github.com/jeremyagray/scratch.git"
   },
   "scripts": {
     "build": "react-scripts build",
