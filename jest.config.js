@@ -7,5 +7,8 @@ module.exports = {
   'setupFilesAfterEnv': [
     '<rootDir>/src/setupTests.js'
   ],
-  'testEnvironment': 'jsdom'
+  'testEnvironment': 'jsdom',
+  'transformIgnorePatterns': [
+    '/node_modules/(?!(d3-?|internmap|delaunator|robust-predicates))'
+  ]
 };
