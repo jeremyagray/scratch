@@ -24,7 +24,7 @@ import './App.css';
 // import Login from './Login.js';
 // import Register from './Register.js';
 
-function App() {
+const App = (props) => {
   return (
     <div className="App">
       <h1>
