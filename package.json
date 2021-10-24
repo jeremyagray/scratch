@@ -24,9 +24,13 @@
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "babel-jest": "^27.3.1",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.4.0",
     "html-webpack-plugin": "^5.4.0",
+    "jest": "^27.3.1",
     "style-loader": "^3.3.1",
     "webpack": "^5.59.1",
     "webpack-cli": "^4.9.1",
@@ -93,7 +97,7 @@
     "lint": "eslint 'src/*.js'",
     "lint-fix": "eslint 'src/*.js' --fix",
     "start": "BROWSER=none webpack serve",
-    "test": "react-scripts test"
+    "test": "jest"
   },
   "version": "0.0.1"
 }
