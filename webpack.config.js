@@ -1,9 +1,16 @@
+/*
+ * SPDX-License-Identifier: MIT
+ *
+ * Copyright 2021-2022 Jeremy A Gray <gray@flyquackswim.com>.
+ */
+
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
   'devServer': {
+    'historyApiFallback': true,
     'static': {
       'directory': path.join(__dirname, 'public'),
     },
@@ -33,6 +40,7 @@ module.exports = {
     ]
   },
   'output': {
+    'publicPath': '/',
     'path': path.resolve(__dirname, 'dist'),
     'filename': 'bundle.js'
   },
